@@ -4,7 +4,7 @@ cls
 
 set sd=C:\Users
 set apphome=%sd%\%USERNAME%\pys
-mkdir set dsrv=%sd%\%USERNAME%\www\scarica
+set dsrv=%sd%\%USERNAME%\www\scarica
 
 
 mkdir %dsrv%
