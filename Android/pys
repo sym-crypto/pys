@@ -9,5 +9,6 @@ while
   echo python web server
   echo ...
 do
-
+  echo all il...
+  ifconfig 
 done
