@@ -2,10 +2,11 @@
 
 sd=/sdcard
 dsrv=$sd/www/scarica
+apphome=$sd/pys
 
 while
   clear
-  cat title-pys | lolcat
+  cat $apphome/title-pys | lolcat
   echo python web server
   echo ...
 do
