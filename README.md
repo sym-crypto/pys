@@ -19,9 +19,14 @@ copy pys file in pys home from one of this:
   Linux
   Windows
 
-[ANDROID] cd /sdcard/pys; bash pys
-[LINUX] cd ~/pys; bash pys
-[WINDOWS] click pys.cmd
+[ANDROID]
+  cd /sdcard; mkdir pys
+  cd /sdcard/pys; bash pys
+[LINUX]
+  cd ~; mkdir pys
+  cd ~/pys; bash pys
+[WINDOWS]
+  click pys.cmd
 
 
 
