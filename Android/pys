@@ -10,5 +10,9 @@ while
   echo ...
 do
   echo all il...
-  ifconfig 
+  ifconfig | grep "inet'
+  echo wlan:
+  ifconfig | grep "broadcast"
+  cd $dsrv
+  python3 -m http.server 1212 | echo server_online http://0.0.0.0:1212' ->'sd/www/scarica | lolcat
 done
