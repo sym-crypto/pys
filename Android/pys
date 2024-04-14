@@ -1,2 +1,11 @@
 #!/bin/bash
 
+sd=/sdcard
+dsrv=$sd/www/scarica
+
+while
+  clear
+  cat title-pys
+do
+
+done
