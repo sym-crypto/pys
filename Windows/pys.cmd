@@ -4,8 +4,11 @@ cls
 
 set sd=C:\Users
 set apphome=%sd%\%USERNAME%\pys
-set dsrv=%sd%\%USERNAME%\www\scarica
+mkdir set dsrv=%sd%\%USERNAME%\www\scarica
 
+
+mkdir %dsrv%
+cls
 
 cls
 type %apphome%\title-pys
