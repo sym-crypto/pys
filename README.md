@@ -12,7 +12,7 @@ set pys home in
 [LINUX]
   ~
 [WINDOWS]
-  C:/USERS
+  C:/Users/%USERNAME%
 
 copy pys file in pys home from one of this: 
   Android
@@ -26,6 +26,8 @@ copy pys file in pys home from one of this:
   cd ~; mkdir pys
   cd ~/pys; bash pys
 [WINDOWS]
+  make dir pys in C:/Users/%USERNAME%
+  move all in pys dir
   click pys.cmd
 
 
