@@ -5,7 +5,9 @@ dsrv=$sd/www/scarica
 
 while
   clear
-  cat title-pys
+  cat title-pys | lolcat
+  echo python web server
+  echo ...
 do
 
 done
